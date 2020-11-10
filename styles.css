@@ -1,3 +1,7 @@
+.main-page-p {
+  margin-top: 50px;
+}
+
 .main-title {
   color: rgb(255, 255, 255);
   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
@@ -7,13 +11,23 @@
 }
 .main-title {
   height: 100vh;
+  
 }
 .breakingline {
   width: 90%;
   background-color: rgb(132, 132, 132);
 }
 
-.btn-custom {
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: auto;
+  
+}
+
+.btn-custom:link,
+.btn-custom:visited {
+  margin-top: auto;
   background-color: #7a43b6;
   border-color: #7a43b6;
   transition: font-size 0.2s, background-color 0.2s, border-colour 0.2s;
