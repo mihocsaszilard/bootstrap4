@@ -1,3 +1,27 @@
-body {
-  background: orange;
+.main-title {
+  color: rgb(255, 255, 255);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(https://images.clickittech.com/wp-content/uploads/2018/02/16175044/Bootstrap4-Clickittech.png);
+  background-attachment: fixed;
+  background-position: center;
+}
+.main-title {
+  height: 100vh;
+}
+.breakingline {
+  width: 90%;
+  background-color: rgb(132, 132, 132);
+}
+
+.btn-custom {
+  background-color: #7a43b6;
+  border-color: #7a43b6;
+  transition: font-size 0.2s, background-color 0.2s, border-colour 0.2s;
+}
+
+.btn-custom:active,
+.btn-custom:hover {
+  background-color: #4b1d7c;
+  border-color: #4b1d7c;
+  font-size: 160%;
 }
