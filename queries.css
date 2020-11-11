@@ -15,6 +15,12 @@
     margin-right: 0px;
   }
   .main-page-p {margin-top: 25px;}
+
+  .contact-custom
+  {
+    display: flex;
+    align-items: center;
+    }
 }
 
 /* Small phones: from 0-480px */

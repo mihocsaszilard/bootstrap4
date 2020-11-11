@@ -5,7 +5,7 @@
 .main-title {
   color: rgb(255, 255, 255);
   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
-    url(https://images.clickittech.com/wp-content/uploads/2018/02/16175044/Bootstrap4-Clickittech.png);
+    url(https://hackernoon.com/hn-images/1*lduEjOI-EQltoRbmKSICeA.jpeg);
   background-attachment: fixed;
   background-position: center;
   border-radius: 0px;
@@ -28,9 +28,9 @@
 
 .btn-custom:active,
 .btn-custom:hover {
-  background-color: #4b1d7c;
-  border-color: #4b1d7c;
-  font-size: 160%;
+  background-color: #4b1d7c !important;
+  border-color: #4b1d7c !important;
+  font-size: 160% !important;
 }
 
 .navbar-icon {
