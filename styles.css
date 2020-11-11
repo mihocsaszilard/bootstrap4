@@ -8,21 +8,14 @@
     url(https://images.clickittech.com/wp-content/uploads/2018/02/16175044/Bootstrap4-Clickittech.png);
   background-attachment: fixed;
   background-position: center;
+  border-radius: 0px;
 }
 .main-title {
-  height: 100vh;
-  
+  height: 91vh;
 }
 .breakingline {
   width: 90%;
   background-color: rgb(132, 132, 132);
-}
-
-.btn-container {
-  display: flex;
-  justify-content: center;
-  margin-bottom: auto;
-  
 }
 
 .btn-custom:link,
@@ -38,4 +31,11 @@
   background-color: #4b1d7c;
   border-color: #4b1d7c;
   font-size: 160%;
+}
+
+.navbar-icon {
+  height: 7vh;
+  background-color: #fff;
+  border-radius: 7px;
+  margin-right: 10px;
 }
