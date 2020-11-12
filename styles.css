@@ -53,3 +53,21 @@
   font-size: 80%;
   margin-top: 15px;
 }
+
+.navbar-custom{
+  position: relative;
+  overflow-y: scroll; 
+  height: 250px;
+}
+
+.footer-custom{
+  display: flex;
+  align-items: center;
+  height: 6%;
+  margin-bottom: 0px;
+}
+
+.contact-footer{
+  display: flex;
+  flex-direction: row;
+}

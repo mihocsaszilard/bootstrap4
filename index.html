@@ -31,21 +31,20 @@
   <body>
     <!--  <a href="/me.html">My other page</a>-->
 
-    <div class="jumbotron text-center main-title" style="margin-bottom:0">
-      <h1 class="display-4">My First Bootstrap 4 Page</h1>
-      <p class="main-page-p">Resize this responsive page to see the effect!</p>
+    <div class="jumbotron text-center main-title" style="margin-bottom: 0">
+      <h1 class="display-2">It`s Bootstrap 4</h1>
+      <p class="main-page-p display-4">
+        Simply a better Bootstrap 3 with lots of cool features!
+      </p>
       <p class="lead main-page-p">
-        This is a simple hero unit, a simple jumbotron-style component for
-        calling extra attention to featured content or information.
+        Download ready-to-use compiled code for Bootstrap v4.4.1 to easily drop
+        into your project, which includes: Compiled and minified CSS bundles
+        (see CSS files comparison)& Compiled and minified JavaScript plugins
       </p>
 
       <!-- <hr class="my-4 breakingline" -->
 
-      <p class="main-page-p">
-        It uses utility classes for typography and spacing to space content out
-        within the larger container.
-      </p>
-      <div class="btn-container container pt-5 ">
+      <div class="btn-container container pt-5">
         <a class="btn btn-primary btn-lg btn-custom" href="#" role="button"
           >Learn more</a
         >
@@ -59,16 +58,16 @@
         class="rounded"
         alt="Cinque Terre"
       />
-      <a class="navbar-brand " href="#">BS4</a>
+      <a class="navbar-brand" href="#">BS4</a>
       <button
         class="navbar-toggler"
         type="button"
         data-toggle="collapse"
         data-target="#collapsibleNavbar"
       >
-        <span class="navbar-toggler-icon "></span>
+        <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse " id="collapsibleNavbar">
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
           <li class="nav-item">
             <a class="nav-link" href="#">News</a>
@@ -82,17 +81,17 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Contact</a>
           </li>
-          <li class="nav-item ">
-            <a class="nav-link " href="#">Crew</a>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Crew</a>
           </li>
-          <li class="nav-item ">
+          <li class="nav-item">
             <a class="nav-link" href="#"> </a>
           </li>
         </ul>
       </div>
     </nav>
 
-    <div class="container" style="margin-top:30px">
+    <div class="container" style="margin-top: 30px">
       <div class="row">
         <div class="col-sm-4">
           <h2>News</h2>
@@ -102,7 +101,7 @@
               src="https://avatars2.githubusercontent.com/u/1073681?s=460&u=0d0b153d01a2cea3b9293f62d14ff05d50f70ac8&v=4"
               alt="bootstrap developer"
               class="mr-4 mt-1 rounded-circle"
-              style="width:100px;"
+              style="width: 100px"
             />
             <div class="media-body">
               <h4>
@@ -143,8 +142,8 @@
           <hr class="d-sm-none" />
         </div>
         <div class="col-sm-8">
-          <h2>TITLE HEADINg</h2>
-          <h5>Title description, Dec 7, 2017</h5>
+          <h2>NEW FEATURES</h2>
+          <h5>from developers</h5>
 
           <div id="demo" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
@@ -205,15 +204,19 @@
               <span class="carousel-control-next-icon"></span>
             </a>
           </div>
-          <p>Some text..</p>
+          <h3 class="mt-4">Quick start</h3>
           <p>
-            Sunt in culpa qui officia deserunt mollit anim id est laborum
-            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco.
+            Looking to quickly add Bootstrap to your project? Use BootstrapCDN,
+            provided for free by the folks at StackPath. Using a package manager
+            or need to download the source files?<a
+              href="https://getbootstrap.com/docs/4.4/getting-started/download/"
+            >
+              Head to the downloads page.</a
+            >
           </p>
           <br />
-          <h2>TITLE HEADING</h2>
+          <!-- 
+        <h2>TITLE HEADING</h2>
           <h5>Title description, Sep 2, 2017</h5>
           <div class="fakeimg">Fake Image</div>
           <p>Some text..</p>
@@ -223,12 +226,142 @@
             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
             exercitation ullamco.
           </p>
+        </div>-->
+        </div>
+
+        <nav id="navbar-example2" class="navbar navbar-light bg-light w-100">
+          <a class="navbar-brand" href="#"></a>
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="nav-link" href="#history">History</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#actual">Actual status</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Versions</a
+              >
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#bs1">Bootstrap 1</a>
+                <a class="dropdown-item" href="#bs2">Bootstrap 2</a>
+                <a class="dropdown-item" href="#bs3">Bootstrap 3</a>
+                <div role="separator" class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#bs4">Bootstrap 4</a>
+              </div>
+            </li>
+          </ul>
+        </nav>
+
+        <div
+          data-spy="scroll"
+          data-target="#navbar-example2"
+          class="navbar-custom"
+          data-offset="0"
+        >
+          <h4 id="history">History</h4>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum.
+          </p>
+          <h4 id="actual">Actual status</h4>
+          <p>
+            ..Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum..
+          </p>
+          <h4 id="bs1">Bootstrap 1</h4>
+          <p>
+            .Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum...
+          </p>
+          <h4 id="bs2">Bootstrap 2</h4>
+          <p>
+            .Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum...
+          </p>
+          <h4 id="bs3">Bootstrap 3</h4>
+          <p>
+            ..Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum..
+          </p>
+          <h4 id="bs4">Bootstrap 4</h4>
+          <p>
+            ..Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum..
+          </p>
         </div>
       </div>
     </div>
-
-    <div class="jumbotron text-center" style="margin-bottom:0">
-      <p>Footer</p>
+    <div class="footer-custom bg-dark" style="margin-bottom: 0">
+      <div class="text-light text-center col-sm-4">
+        <div class="list-inline">
+          <p  class="list-inline-item">Terms</p>
+          <p  class="list-inline-item">Contact</i></p>
+          <p  class="list-inline-item">Crew</i></p>
+          <p  class="list-inline-item">Career</i></p>
+        </div>
+      </div>
+      
+      <div class="text-light text-center col-sm-4 ">
+        <div class="list-inline">
+          <a href="#" class="list-inline-item"><i class="fa fa-facebook mx-2 "></i></a>
+          <a href="#" class="list-inline-item"><i class="fa fa-instagram mx-2"></i></a>
+          <a href="#" class="list-inline-item"><i class="fa fa-twitter mx-2"></i></a>
+          <a href="#" class="list-inline-item"><i class="fa fa-git mx-2"></i></a>
+        </div>
+      </div>
+    
+      <p class="text-light text-center col-sm-4 ">
+        A brand owned by Bootsrtap 4 Team 2020 &copy;. All rights reserved!
+      </p>
     </div>
   </body>
 </html>
